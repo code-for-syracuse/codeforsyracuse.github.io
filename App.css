@@ -1,0 +1,116 @@
+body {
+    background-color: rgba(238, 238, 238, 1);
+    font-family: 'Muli', sans-serif;
+}
+
+.square {
+    width: 400px;
+    height: 425px;
+    /* background-color: yellow; */
+    margin: 5px 0 0 5px;
+
+}
+
+
+/*The CSS for the orange button*/
+.orangeButton {
+    text-align: left;
+    width: 260px; /*Subject to change*/
+    height: 40px; /*Subject to change*/
+    left: 72px; /*Added position to show on HTML page*/
+    top: 1000px; /*Added position to show on HTML page*/
+    background-color: #D44500;
+    margin-left: 50px; /*Added position to show on HTML page*/
+    color: white; 
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 4px;
+    border-style: none;
+}
+
+/*#gray {
+    text-align: left;
+    width: 260px;
+    height: 40px;
+    left: 72px;
+    top: 1000px;
+    background-color: rgb(93,93,93);
+    margin-left: 50px;
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+
+}*/
+
+/*The CSS for the white button*/
+.whiteButton {
+    text-align: center;
+    width: 260px; /*Subject to change*/
+    height: 40px; /*Subject to change*/
+    left: 72px; /*Added position to show on HTML page*/
+    top: 1000px; /*Added position to show on HTML page*/
+    background-color: white;
+    margin-left: 50px; /*Added position to show on HTML page*/
+    color: #0F1721;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    border: 2px solid #0F1721;
+    box-sizing: border-box; /*Follow-up with Ryan*/
+}
+
+.radioButtons {
+    /* position: absolute; */
+    width: 12px;
+    height: 12px;
+    left: 104px;
+    top: 1919px;
+
+    background: #FFFFFF;
+
+    }
+
+    .radioButtonSection {
+        /* position: absolute; */
+        width: 528px;
+        height: 77px;
+        left: 80px;
+        top: 1887px;
+        background: #FFFFFF;
+        border: 1px solid #D44500;
+        box-sizing: border-box;
+        border-radius: 8px;
+        margin-top: 10px;
+        display: table;
+    }
+
+    .radioButtonText {
+        display: table-cell;
+        margin: 0;
+        color: black;
+        padding: 20px;
+        vertical-align: middle;
+    }
+
+    /*Wraps the text below the radio button*/
+    input[type=radio] {
+        float: left; 
+    }
+
+    label {
+        margin-left: 30px; 
+        display: block;
+    }
+
+
+
+
